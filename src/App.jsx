@@ -9,6 +9,8 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import GoogleLocationMap from "./LocationMap";
 import DatePickerComponent from "./DatePickerComponent";
 import SimpleTable from "./MaterialUITable";
+import LodashTest from './LodashTest';
+import UuidTest from './UuidTest';
 
 library.add(fab);
 
@@ -82,6 +84,8 @@ const App = (props) => {
                         }/>
                 </div>
             </Card>
+            <LodashTest/>
+            <UuidTest/>
         </IconSettings>
     );
 };
