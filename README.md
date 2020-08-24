@@ -1,22 +1,34 @@
-# LWC React-Webpack Container
+# minimal-react-webpack-babel-setup
 
-<img width="901" alt="LWC_React_Hello_World___Salesforce" src="https://user-images.githubusercontent.com/5217568/62799975-6c3cc880-ba9f-11e9-9525-1975e6ac0d50.png">
+[![Build Status](https://travis-ci.org/rwieruch/minimal-react-webpack-babel-setup.svg?branch=master)](https://travis-ci.org/rwieruch/minimal-react-webpack-babel-setup) [![Slack](https://slack-the-road-to-learn-react.wieruch.com/badge.svg)](https://slack-the-road-to-learn-react.wieruch.com/) [![Greenkeeper badge](https://badges.greenkeeper.io/rwieruch/minimal-react-webpack-babel-setup.svg)](https://greenkeeper.io/)
 
-Proof of concept demonstracting how you can use webpack to bundle a react application and mount it in a LWC.
+Read how to set it up yourself: [React with Webpack Tutorial](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/).
 
-At this time, I do not recommend doing this for anything other than a static page.  If you want to develop react SPA applications on salesforce, I recommend using Visualforce (check out [B.A.S.S.](https://github.com/ChuckJonas/bad-ass-salesforce-stack) for ready to go boiler plate)
+[![Edit minimal-react-webpack-babel-setup](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/rwieruch/minimal-react-webpack-babel-setup/tree/master/?fontsize=14)
 
-## Setup
+## Features
 
-- clone this repository
-- npm install
-- create a scratch org.  Set as default
-- `npm run deploy`
-- `sfdx force:user:permset:assign -n lwc_react`
+* React 16
+* Webpack 4
+* Babel 7
+* Hot Module Replacement
 
-## Demo
+## DIY Add-Ons
 
-- `sfdx force:org:open`
-- Add 1 or more contacts
-- Open App Launcher 
-- Select "LWC React Hello World"
+* [ESLint](https://www.robinwieruch.de/react-eslint-webpack-babel/)
+* [CSS Modules](https://www.robinwieruch.de/react-css-modules/)
+* [SVG Icons](https://www.robinwieruch.de/react-svg-icon-components/)
+* [Fonts Support](https://www.robinwieruch.de/webpack-font/)
+* [Images Support](https://www.robinwieruch.de/webpack-images/)
+
+## Alternatives
+
+* [Advanced React Webpack Babel Setup](https://github.com/rwieruch/advanced-react-webpack-babel-setup) via this [Tutorial](https://www.robinwieruch.de/webpack-advanced-setup-tutorial)
+
+## Installation
+
+* `git clone git@github.com:rwieruch/minimal-react-webpack-babel-setup.git`
+* cd minimal-react-webpack-babel-setup
+* npm install
+* npm start
+* visit `http://localhost:8080/`
