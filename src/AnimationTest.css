@@ -1,0 +1,100 @@
+.defaultStyle {
+  transition: transform 1000ms cubic-bezier(.7,-0.65,.65,1.7);
+}
+
+.horizFlow-appear {
+
+}
+
+.horizFlow-appear-active {
+
+}
+
+.horizFlow-appear-done {
+
+}
+
+.horizFlow-enter {
+  transform: rotate(720deg);
+}
+
+.horizFlow-enter-active {
+  transform: rotate(0deg);
+}
+
+.horizFlow-enter-done {
+  transform: rotate(0deg);
+}
+
+.horizFlow-exit {
+  transform: rotate(0deg);
+}
+
+.horizFlow-exit-active {
+  transform: rotate(720deg);
+}
+
+.horizFlow-exit-done {
+  transform: rotate(720deg);
+}
+
+.popDefault {
+  transition-property: transform, opacity;
+  transition-duration: 700ms;
+  transition-timing-function: cubic-bezier(.9,.01,.6,1.84);
+}
+
+.popAnim-enter {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.popAnim-enter-active {
+  transform: scale(0);
+  opacity: 0;
+}
+
+.popAnim-enter-done {
+  transform: scale(0);
+  opacity: 0;
+}
+
+.popAnim-exit {
+  transform: scale(0);
+  opacity: 0;
+}
+
+.popAnim-exit-active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.popAnim-exit-done {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.delay-0 {
+  transition-delay: 0ms;
+}
+ 
+.delay-1 {
+  transition-delay: 100ms;
+}
+ 
+.delay-2 {
+  transition-delay: 200ms;
+}
+ 
+.delay-3 {
+  transition-delay: 300ms;
+}
+ 
+.delay-4 {
+  transition-delay: 400ms;
+}
+ 
+.delay-5 {
+  transition-delay: 500ms;
+}
+ 
