@@ -11,6 +11,7 @@ import DatePickerComponent from "./DatePickerComponent";
 import SimpleTable from "./MaterialUITable";
 import LodashTest from './LodashTest';
 import UuidTest from './UuidTest';
+import AnimationTest from './AnimationTest';
 
 library.add(fab);
 
@@ -86,6 +87,7 @@ const App = (props) => {
             </Card>
             <LodashTest/>
             <UuidTest/>
+            <AnimationTest/>
         </IconSettings>
     );
 };
